@@ -1,26 +1,3 @@
 {
-  "only": [
-    "*.js",
-    "*.babel.js"
-  ],
-	"ignore": [
-		"./node_modules",
-		"./node_modules/**/node_modules",
-        "./test/**/*"
-	],
-  "presets": ["es2015", "es2016", "stage-0"],
-	"plugins": [
-		"transform-class-properties",
-	],
-	"env": {
-        "development": {
-            "sourceMaps": "inline"
-        },
-		"testing": {
-			"plugins": [
-                "transform-export-extensions",
-				"transform-inline-environment-variables"
-			]
-		}
-	}
+  "presets": ["es2015"]
 }
